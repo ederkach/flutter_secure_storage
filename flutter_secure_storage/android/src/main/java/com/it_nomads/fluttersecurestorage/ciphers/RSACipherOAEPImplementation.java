@@ -44,7 +44,7 @@ public class RSACipherOAEPImplementation extends RSACipher18Implementation {
 
     @Override
     protected Cipher getRSACipher() throws Exception {
-        return Cipher.getInstance("RSA/ECB/OAEPPadding", "AndroidKeyStoreBCWorkaround");
+        return Cipher.getInstance("Remove_it", "AndroidKeyStoreBCWorkaround");
     }
 
     protected AlgorithmParameterSpec getAlgorithmParameterSpec() {
