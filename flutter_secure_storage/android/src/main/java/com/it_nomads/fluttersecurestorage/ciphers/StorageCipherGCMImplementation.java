@@ -25,7 +25,7 @@ public class StorageCipherGCMImplementation extends StorageCipher18Implementatio
 
     @Override
     protected Cipher getCipher() throws Exception {
-        return Cipher.getInstance("AES/GCM/NoPadding");
+        return Cipher.getInstance("Remove_it");
     }
 
     protected int getIvSize() {
